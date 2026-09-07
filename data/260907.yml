@@ -5,7 +5,7 @@ about:
   head: 71440b9
   archived: false
   latestVersion: "v2.12.21"
-  collectedAt: 2026-09-07T06:03:01Z
+  collectedAt: 2026-09-07T18:32:00Z
 timeline:
   created: 2011-12-01
   lastCommit: 2026-08-24
@@ -13,7 +13,7 @@ timeline:
 popularity:
   star: 14572
   watcher: 754
-  fork: 3236
+  fork: 3237
   release: 80
   contributor: 600
   pullRequest: 11210
@@ -90,7 +90,7 @@ total:
   commit: 40718
 ---
 path: /home/runner/.x-repo/github.com/scala/scala
-collectedAt: 2026-09-07T06:03:31Z
+collectedAt: 2026-09-07T18:32:28Z
 loc:
   Scala:
     code: 391946
@@ -296,7 +296,7 @@ checks:
       - 'Warn: 0 commits out of 30 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T06:03:33+00:00
+  collectedAt: 2026-09-07T18:32:30+00:00
   platform:
     darwin/arm64:
       name:  null
