@@ -1,62 +1,62 @@
 # scala
 
-[中文版本](./README.cn.md)
+[English version](./README.md)
 
 Scala 2 compiler and standard library. Scala 2 bugs at https://github.com/scala/bug; Scala 3 at https://github.com/scala/scala3
 
-![scala](https://repo.x-cmd.io/scala.svg)
+![scala](https://repo.x-cmd.io/scala.svg?lang=zh)
 
-## Install
+## 安装
 
 ```sh
 x install scala
 ```
 
-## Code insight
+## 代码规模
 
-Total: **406,124** lines of code across **10057** files in the top 5 languages.
+合计: **406,124** 行代码（覆盖前 5 种语言、共 **10057** 个文件）。
 
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
+| 语言 | 代码 | 注释 | 空行 | 文件数 |
+|------|-----:|-----:|-----:|------:|
 | Scala | 391,946 | 106,503 | 73,484 | 9353 |
 | Java | 8,129 | 1,404 | 1,622 | 672 |
 | Css | 2,822 | 40 | 466 | 12 |
 | JavaScript | 1,217 | 93 | 175 | 7 |
 | Svg | 861 | 0 | 3 | 13 |
 
-## OpenSSF Scorecard
+## OpenSSF Scorecard 评分
 
-Overall score: **4.4 / 10**
+总评分: **4.4 / 10**
 
-Lowest-scoring checks:
+评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
-## Source
+## 源代码
 
-- **Upstream**: <https://github.com/scala/scala>
-- **Homepage**: <https://www.scala-lang.org/>
-- **License**: Apache-2.0
+- **上游仓库**: <https://github.com/scala/scala>
+- **官网**: <https://www.scala-lang.org/>
+- **许可证**: Apache-2.0
 
-## Release
+## 发布
 
-- **Latest**: `v2.12.21` (2025-12-08)
-- **Last commit**: 2026-08-24
-- **Assets in release**: 8
+- **最新版本**: `v2.12.21` (2025-12-08)
+- **最近提交**: 2026-08-24
+- **Release 含资产**: 8 个
 
-## Popularity
+## 流行度
 
-- **Stars**: 14,560 · **Forks**: 3,220 · **Open issues**: 0 · **Contributors**: 600
+- **Star**: 14,560 · **Fork**: 3,220 · **开放 issue**: 0 · **贡献者**: 600
 
-## Totals (cumulative)
+## 累计统计
 
-- **Releases**: 80 · **Merged PRs**: 8733 · **Open PRs**: 14 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40718
+- **发布数**: 80 · **已合并 PR**: 8733 · **开放 PR**: 14 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 40718
 
-## Recent activity
+## 最近活动
 
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
 | 30d | 2026-08-11 | 0 | 9 | 2 | 0 | 0 | 13 |
 | last60d | 2026-07-12 | 0 | 17 | 2 | 0 | 0 | 33 |
@@ -65,10 +65,10 @@ Lowest-scoring checks:
 | 360d | 2025-09-15 | 3 | 121 | 7 | 0 | 0 | 279 |
 | last720d | 2024-09-20 | 5 | 342 | 12 | 0 | 0 | 834 |
 
-## Release assets
+## Release 资产
 
-| Asset | Size | Target |
-|-------|-----:|--------|
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
 | [scala-2.13.18.deb](https://github.com/scala/scala/releases/download/v2.13.18/scala-2.13.18.deb) | 654.9 MiB | `other` |
 | [scala-2.13.18.msi](https://github.com/scala/scala/releases/download/v2.13.18/scala-2.13.18.msi) | 130.6 MiB | `other` |
 | [scala-2.13.18.rpm](https://github.com/scala/scala/releases/download/v2.13.18/scala-2.13.18.rpm) | 131.0 MiB | `other` |
@@ -78,12 +78,12 @@ Lowest-scoring checks:
 | [scala-docs-2.13.18.txz](https://github.com/scala/scala/releases/download/v2.13.18/scala-docs-2.13.18.txz) | 56.3 MiB | `native/unknown` |
 | [scala-docs-2.13.18.zip](https://github.com/scala/scala/releases/download/v2.13.18/scala-docs-2.13.18.zip) | 112.4 MiB | `other` |
 
-## Distribution status
+## 发行版状态
 
-Reported by **154** distros on [repology.org](https://repology.org/project/scala). **9** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
+在 [repology.org](https://repology.org/project/scala) 上共有 **154** 个发行版报告此项目。**9** 个 ✅ 已是最新上游版本，**81** 个 ⚠️ 使用旧版本。
 
-| Distro | Version | Status |
-|--------|---------|--------|
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
 | Debian unstable | `2.11.12` | ⚠️ outdated |
 | Debian 14 | `2.11.12` | ⚠️ outdated |
 | Debian 13 | `2.11.12` | ⚠️ outdated |
@@ -93,13 +93,13 @@ Reported by **154** distros on [repology.org](https://repology.org/project/scala
 | Nix unstable | `3.9.0` | ✅ latest |
 | openSUSE Tumbleweed | `2.13.12` | ⚠️ outdated |
 
-## Improve this data
+## 改进这些数据
 
-Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `scala` is missing, out of date, or installs incorrectly, please open an issue or PR there:
+scala 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `scala` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
 
-- **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/scala.yml> (or whichever path the index uses)
+- **提交 issue**: <https://github.com/x-cmd/install/issues/new>
+- **编辑包条目**: <https://github.com/x-cmd/install/edit/main/scala.yml>（或索引实际使用的路径）
 
-The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
+本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T21:17:07Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T21:17:08Z._
