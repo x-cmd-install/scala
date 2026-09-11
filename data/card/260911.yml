@@ -7,7 +7,7 @@ about:
   latestVersion: "v2.12.21"
   latestRelease: "v2.12.21"
   latestPrerelease: "v2.13.0-RC3"
-  collectedAt: 2026-09-11T06:14:25Z
+  collectedAt: 2026-09-11T18:37:02Z
 timeline:
   created: 2011-12-01
   lastCommit: 2026-08-24
@@ -94,7 +94,7 @@ total:
   commit: 40718
 ---
 path: /home/runner/.x-repo/github.com/scala/scala
-collectedAt: 2026-09-11T06:15:08Z
+collectedAt: 2026-09-11T18:37:32Z
 loc:
   Scala:
     code: 391946
