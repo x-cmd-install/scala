@@ -4,7 +4,7 @@
 
 Scala 2 compiler and standard library. Scala 2 bugs at https://github.com/scala/bug; Scala 3 at https://github.com/scala/scala3
 
-![scala](https://repo.x-cmd.io/scala.svg)
+[![x-cmd/install — scala Code Quality Monitoring Repo Card](https://repo.x-cmd.io/scala.svg)](https://x-cmd.com/install/scala)
 
 ## Install
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,561 · **Forks**: 3,218 · **Open issues**: 0 · **Contributors**: 600
+- **Stars**: 14,562 · **Forks**: 3,218 · **Open issues**: 0 · **Contributors**: 600
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 4 | 3 | 0 | 0 | 4 |
-| last60d | 2026-07-20 | 0 | 16 | 3 | 0 | 0 | 32 |
-| 90d | 2026-06-20 | 0 | 21 | 3 | 0 | 0 | 43 |
-| last180d | 2026-03-22 | 0 | 43 | 4 | 0 | 0 | 98 |
-| 360d | 2025-09-23 | 3 | 117 | 7 | 0 | 0 | 263 |
-| last720d | 2024-09-28 | 4 | 335 | 13 | 0 | 0 | 829 |
+| 30d | 2026-08-21 | 0 | 3 | 3 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 16 | 3 | 0 | 0 | 32 |
+| 90d | 2026-06-22 | 0 | 20 | 3 | 0 | 0 | 41 |
+| last180d | 2026-03-24 | 0 | 42 | 4 | 0 | 0 | 92 |
+| 360d | 2025-09-25 | 3 | 116 | 7 | 0 | 0 | 249 |
+| last720d | 2024-09-30 | 4 | 334 | 13 | 0 | 0 | 823 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T06:24:12Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T06:18:38Z._

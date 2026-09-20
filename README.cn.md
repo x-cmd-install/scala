@@ -4,7 +4,7 @@
 
 Scala 2 compiler and standard library. Scala 2 bugs at https://github.com/scala/bug; Scala 3 at https://github.com/scala/scala3
 
-![scala](https://repo.x-cmd.io/scala.svg?lang=zh)
+[![x-cmd/install — scala Code Quality Monitoring Repo Card](https://repo.x-cmd.io/scala.svg?lang=zh)](https://x-cmd.com/install/scala)
 
 ## 安装
 
@@ -48,7 +48,7 @@ x install scala
 
 ## 流行度
 
-- **Star**: 14,561 · **Fork**: 3,218 · **开放 issue**: 0 · **贡献者**: 600
+- **Star**: 14,562 · **Fork**: 3,218 · **开放 issue**: 0 · **贡献者**: 600
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install scala
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 4 | 3 | 0 | 0 | 4 |
-| last60d | 2026-07-20 | 0 | 16 | 3 | 0 | 0 | 32 |
-| 90d | 2026-06-20 | 0 | 21 | 3 | 0 | 0 | 43 |
-| last180d | 2026-03-22 | 0 | 43 | 4 | 0 | 0 | 98 |
-| 360d | 2025-09-23 | 3 | 117 | 7 | 0 | 0 | 263 |
-| last720d | 2024-09-28 | 4 | 335 | 13 | 0 | 0 | 829 |
+| 30d | 2026-08-21 | 0 | 3 | 3 | 0 | 0 | 0 |
+| last60d | 2026-07-22 | 0 | 16 | 3 | 0 | 0 | 32 |
+| 90d | 2026-06-22 | 0 | 20 | 3 | 0 | 0 | 41 |
+| last180d | 2026-03-24 | 0 | 42 | 4 | 0 | 0 | 92 |
+| 360d | 2025-09-25 | 3 | 116 | 7 | 0 | 0 | 249 |
+| last720d | 2024-09-30 | 4 | 334 | 13 | 0 | 0 | 823 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ scala 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T06:24:13Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T06:18:39Z._
