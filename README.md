@@ -4,7 +4,7 @@
 
 Scala 2 compiler and standard library. Scala 2 bugs at https://github.com/scala/bug; Scala 3 at https://github.com/scala/scala3
 
-[![x-cmd/install — scala Code Quality Monitoring Repo Card](https://repo.x-cmd.io/scala.svg)](https://x-cmd.com/install/scala)
+[![x-cmd/install — scala Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/scala.svg)](https://x-cmd.com/install/scala)
 
 ## Install
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,562 · **Forks**: 3,218 · **Open issues**: 0 · **Contributors**: 600
+- **Stars**: 14,562 · **Forks**: 3,217 · **Open issues**: 0 · **Contributors**: 600
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8733 · **Open PRs**: 15 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40718
+- **Releases**: 80 · **Merged PRs**: 8733 · **Open PRs**: 16 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40718
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 2 | 3 | 0 | 0 | 0 |
-| last60d | 2026-07-24 | 0 | 16 | 3 | 0 | 0 | 32 |
-| 90d | 2026-06-24 | 0 | 20 | 3 | 0 | 0 | 41 |
-| last180d | 2026-03-26 | 0 | 42 | 4 | 0 | 0 | 92 |
-| 360d | 2025-09-27 | 3 | 112 | 7 | 0 | 0 | 249 |
-| last720d | 2024-10-02 | 4 | 334 | 13 | 0 | 0 | 822 |
+| 30d | 2026-08-24 | 0 | 2 | 4 | 0 | 0 | 0 |
+| last60d | 2026-07-25 | 0 | 16 | 4 | 0 | 0 | 32 |
+| 90d | 2026-06-25 | 0 | 20 | 4 | 0 | 0 | 41 |
+| last180d | 2026-03-27 | 0 | 41 | 5 | 0 | 0 | 92 |
+| 360d | 2025-09-28 | 3 | 112 | 8 | 0 | 0 | 249 |
+| last720d | 2024-10-03 | 4 | 334 | 14 | 0 | 0 | 822 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:26:05Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:41:10Z._
