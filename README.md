@@ -14,11 +14,11 @@ x install scala
 
 ## Code insight
 
-Total: **406,132** lines of code across **10058** files in the top 5 languages.
+Total: **406,142** lines of code across **10058** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Scala | 391,954 | 106,504 | 73,484 | 9354 |
+| Scala | 391,964 | 106,507 | 73,487 | 9354 |
 | Java | 8,129 | 1,404 | 1,622 | 672 |
 | Css | 2,822 | 40 | 466 | 12 |
 | JavaScript | 1,217 | 93 | 175 | 7 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.12.21` (2025-12-08)
-- **Last commit**: 2026-09-24
+- **Last commit**: 2026-09-29
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 14,562 · **Forks**: 3,217 · **Open issues**: 0 · **Contributors**: 600
+- **Stars**: 14,564 · **Forks**: 3,212 · **Open issues**: 0 · **Contributors**: 600
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8735 · **Open PRs**: 14 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40721
+- **Releases**: 80 · **Merged PRs**: 8736 · **Open PRs**: 13 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40723
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 4 | 2 | 0 | 0 | 3 |
-| last60d | 2026-07-31 | 0 | 16 | 2 | 0 | 0 | 33 |
-| 90d | 2026-07-01 | 0 | 20 | 2 | 0 | 0 | 40 |
-| last180d | 2026-04-02 | 0 | 40 | 3 | 0 | 0 | 80 |
-| 360d | 2025-10-04 | 2 | 110 | 6 | 0 | 0 | 246 |
-| last720d | 2024-10-09 | 4 | 333 | 12 | 0 | 0 | 825 |
+| 30d | 2026-08-31 | 0 | 4 | 1 | 0 | 0 | 4 |
+| last60d | 2026-08-01 | 0 | 17 | 1 | 0 | 0 | 35 |
+| 90d | 2026-07-02 | 0 | 21 | 1 | 0 | 0 | 42 |
+| last180d | 2026-04-03 | 0 | 41 | 2 | 0 | 0 | 82 |
+| 360d | 2025-10-05 | 2 | 111 | 5 | 0 | 0 | 248 |
+| last720d | 2024-10-10 | 4 | 331 | 11 | 0 | 0 | 825 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T07:11:03Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:51:48Z._
