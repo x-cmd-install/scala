@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,566 · **Forks**: 3,205 · **Open issues**: 0 · **Contributors**: 600
+- **Stars**: 14,565 · **Forks**: 3,205 · **Open issues**: 0 · **Contributors**: 600
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8738 · **Open PRs**: 19 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40725
+- **Releases**: 80 · **Merged PRs**: 8738 · **Open PRs**: 21 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40725
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-11 | 0 | 4 | 7 | 0 | 0 | 4 |
-| last60d | 2026-08-12 | 0 | 14 | 8 | 0 | 0 | 13 |
-| 90d | 2026-07-13 | 0 | 22 | 8 | 0 | 0 | 40 |
-| last180d | 2026-04-14 | 0 | 40 | 9 | 0 | 0 | 76 |
-| 360d | 2025-10-16 | 2 | 106 | 12 | 0 | 0 | 231 |
-| last720d | 2024-10-21 | 4 | 322 | 16 | 0 | 0 | 793 |
+| 30d | 2026-09-12 | 0 | 4 | 9 | 0 | 0 | 4 |
+| last60d | 2026-08-13 | 0 | 14 | 10 | 0 | 0 | 13 |
+| 90d | 2026-07-14 | 0 | 22 | 10 | 0 | 0 | 40 |
+| last180d | 2026-04-15 | 0 | 40 | 11 | 0 | 0 | 76 |
+| 360d | 2025-10-17 | 2 | 105 | 14 | 0 | 0 | 231 |
+| last720d | 2024-10-22 | 4 | 322 | 18 | 0 | 0 | 788 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261011.yml` · 2026-10-11T06:53:22Z._
+_Snapshot: `data/card/261012.yml` · 2026-10-12T07:22:48Z._
