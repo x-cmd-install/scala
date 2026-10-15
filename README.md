@@ -26,7 +26,7 @@ Total: **406,436** lines of code across **10058** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.4 / 10**
+Overall score: **4.6 / 10**
 
 Lowest-scoring checks:
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,567 · **Forks**: 3,205 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,566 · **Forks**: 3,205 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-14 | 0 | 6 | 6 | 0 | 0 | 20 |
-| last60d | 2026-08-15 | 0 | 16 | 7 | 0 | 0 | 29 |
-| 90d | 2026-07-16 | 0 | 24 | 7 | 0 | 0 | 56 |
-| last180d | 2026-04-17 | 0 | 42 | 8 | 0 | 0 | 92 |
-| 360d | 2025-10-19 | 2 | 108 | 11 | 0 | 0 | 247 |
-| last720d | 2024-10-24 | 4 | 322 | 14 | 0 | 0 | 791 |
+| 30d | 2026-09-15 | 0 | 6 | 6 | 0 | 0 | 20 |
+| last60d | 2026-08-16 | 0 | 16 | 7 | 0 | 0 | 29 |
+| 90d | 2026-07-17 | 0 | 24 | 7 | 0 | 0 | 56 |
+| last180d | 2026-04-18 | 0 | 42 | 8 | 0 | 0 | 92 |
+| 360d | 2025-10-20 | 2 | 108 | 11 | 0 | 0 | 247 |
+| last720d | 2024-10-25 | 4 | 319 | 14 | 0 | 0 | 791 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261014.yml` · 2026-10-14T06:11:10Z._
+_Snapshot: `data/card/261015.yml` · 2026-10-15T05:48:57Z._
