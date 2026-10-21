@@ -14,11 +14,11 @@ x install scala
 
 ## Code insight
 
-Total: **406,412** lines of code across **10060** files in the top 5 languages.
+Total: **406,445** lines of code across **10064** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Scala | 392,263 | 106,592 | 73,519 | 9356 |
+| Scala | 392,296 | 106,591 | 73,525 | 9360 |
 | Java | 8,129 | 1,404 | 1,622 | 672 |
 | Css | 2,822 | 40 | 466 | 12 |
 | JavaScript | 1,217 | 93 | 175 | 7 |
@@ -26,12 +26,12 @@ Total: **406,412** lines of code across **10060** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.6 / 10**
+Overall score: **5.6 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (4/10) — Found 6/14 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## Source
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.12.21` (2025-12-08)
-- **Last commit**: 2026-10-19
+- **Last commit**: 2026-10-20
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 14,566 · **Forks**: 3,221 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,543 · **Forks**: 3,195 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8760 · **Open PRs**: 28 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40797
+- **Releases**: 80 · **Merged PRs**: 8762 · **Open PRs**: 27 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40801
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 0 | 24 | 18 | 0 | 0 | 82 |
-| last60d | 2026-08-21 | 0 | 29 | 19 | 0 | 0 | 92 |
-| 90d | 2026-07-22 | 0 | 42 | 19 | 0 | 0 | 128 |
-| last180d | 2026-04-23 | 0 | 59 | 19 | 0 | 0 | 162 |
-| 360d | 2025-10-25 | 2 | 121 | 22 | 0 | 0 | 296 |
-| last720d | 2024-10-30 | 4 | 331 | 25 | 0 | 0 | 836 |
+| 30d | 2026-09-21 | 0 | 26 | 17 | 0 | 0 | 88 |
+| last60d | 2026-08-22 | 0 | 31 | 18 | 0 | 0 | 98 |
+| 90d | 2026-07-23 | 0 | 44 | 18 | 0 | 0 | 134 |
+| last180d | 2026-04-24 | 0 | 61 | 18 | 0 | 0 | 168 |
+| 360d | 2025-10-26 | 2 | 123 | 21 | 0 | 0 | 302 |
+| last720d | 2024-10-31 | 4 | 333 | 24 | 0 | 0 | 837 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T06:03:12Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:54:23Z._
