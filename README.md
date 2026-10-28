@@ -14,11 +14,11 @@ x install scala
 
 ## Code insight
 
-Total: **406,967** lines of code across **10072** files in the top 5 languages.
+Total: **406,999** lines of code across **10073** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Scala | 392,818 | 106,574 | 73,589 | 9368 |
+| Scala | 392,850 | 106,579 | 73,593 | 9369 |
 | Java | 8,129 | 1,375 | 1,622 | 672 |
 | Css | 2,822 | 40 | 466 | 12 |
 | JavaScript | 1,217 | 93 | 175 | 7 |
@@ -26,13 +26,13 @@ Total: **406,967** lines of code across **10072** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **5.6 / 10**
+Overall score: **6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 6/14 approved changesets -- score normalized to 4
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.12.21` (2025-12-08)
-- **Last commit**: 2026-10-26
+- **Last commit**: 2026-10-27
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 14,537 · **Forks**: 3,203 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,538 · **Forks**: 3,218 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8777 · **Open PRs**: 19 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40840
+- **Releases**: 80 · **Merged PRs**: 8783 · **Open PRs**: 18 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40858
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-27 | 0 | 40 | 9 | 0 | 0 | 133 |
-| last60d | 2026-08-28 | 0 | 45 | 10 | 0 | 0 | 145 |
-| 90d | 2026-07-29 | 0 | 59 | 10 | 0 | 0 | 180 |
-| last180d | 2026-04-30 | 0 | 74 | 10 | 0 | 0 | 213 |
-| 360d | 2025-11-01 | 2 | 129 | 13 | 0 | 0 | 332 |
-| last720d | 2024-11-06 | 4 | 337 | 16 | 0 | 0 | 863 |
+| 30d | 2026-09-28 | 0 | 46 | 8 | 0 | 0 | 158 |
+| last60d | 2026-08-29 | 0 | 51 | 9 | 0 | 0 | 170 |
+| 90d | 2026-07-30 | 0 | 64 | 9 | 0 | 0 | 205 |
+| last180d | 2026-05-01 | 0 | 80 | 9 | 0 | 0 | 238 |
+| 360d | 2025-11-02 | 2 | 135 | 12 | 0 | 0 | 357 |
+| last720d | 2024-11-07 | 4 | 343 | 15 | 0 | 0 | 870 |
 
 ## Release assets
 
@@ -80,16 +80,16 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **152** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
+Reported by **154** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
-| Debian unstable | `2.11.12` | ⚠️ outdated |
+| Debian unstable | `2.11.12` | 🪦 legacy |
 | Debian 14 | `2.11.12` | ⚠️ outdated |
 | Debian 13 | `2.11.12` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.11.12` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.11.12` | ⚠️ outdated |
-| Homebrew | `3.3.8` | 🪦 legacy |
+| Homebrew | `3.10.0` | ✅ latest |
 | Nix unstable | `3.9.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `2.13.12` | ⚠️ outdated |
 
@@ -102,4 +102,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261027.yml` · 2026-10-27T06:20:38Z._
+_Snapshot: `data/card/261028.yml` · 2026-10-28T07:04:00Z._
