@@ -1,5 +1,55 @@
-- repo: parrot
-  subrepo: parrot/main
+- repo: scoop
+  subrepo: versions
+  binname: scala212
+  visiblename: scala212
+  version: 2.12.21
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD-3-Clause
+- repo: scoop
+  subrepo: versions
+  binname: scala2
+  visiblename: scala2
+  version: 2.13.18
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD-3-Clause
+- repo: slackbuilds
+  srcname: development/scala3
+  visiblename: development/scala3
+  version: 3.8.4
+  origversion: null
+  status: outdated
+  maintainers:
+    - julian@dotcore.co.il
+  categories:
+    - development
+- repo: openpkg_current
+  srcname: scala
+  visiblename: scala
+  version: 2.13.8
+  origversion: null
+  status: outdated
+  summary: Scala Programming Language
+  licenses:
+    - Apache
+  categories:
+    - Language
+  vulnerable: true
+- repo: slackbuilds
+  srcname: development/scala
+  visiblename: development/scala
+  version: 2.13.18
+  origversion: null
+  status: legacy
+  maintainers:
+    - julian@dotcore.co.il
+  categories:
+    - development
+- repo: deepin_25
+  subrepo: community
   srcname: scala
   binnames:
     - scala
@@ -14,74 +64,53 @@
     - min.huang@alumni.usc.edu
   categories:
     - devel
-- repo: openbsd
-  srcname: lang/scala
-  binname: scala
-  visiblename: lang/scala
-  version: 3.10.0
-  origversion: null
-  status: newest
-  summary: general purpose multi-paradigm programming language
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: scala
+  binnames:
+    - scala
+    - scala-library
+    - scala-doc
+  visiblename: scala
+  version: 2.11.12
+  origversion: 2.11.12-4
+  status: outdated
   maintainers:
-    - kirill@korins.ky
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - min.huang@alumni.usc.edu
   categories:
-    - lang
-- repo: npackd_stable
+    - devel
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.12.4
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.12.5
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.12.6
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
-- repo: aur
-  srcname: scala_2.12
-  binname: scala_2.12
-  visiblename: scala_2.12
-  version: 2.12.20
-  origversion: 2.12.20-1
-  status: legacy
-  summary: A Java-interoperable language with object-oriented and functional features. This is the maintenance version of Scala 2.12.
+  binnames:
+    - scala
+    - scala-library
+  visiblename: scala
+  version: 2.12.21
+  origversion: 2.12.21+ds3-2
+  status: outdated
   maintainers:
-    - musikolo@aur
-  licenses:
-    - Apache
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.12.7
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - juan.mendezr@proton.me
   categories:
-    - Development
+    - devel
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: scala
+  binnames:
+    - scala
+    - scala-library
+    - scala-doc
+  visiblename: scala
+  version: 2.11.12
+  origversion: 2.11.12-6
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - min.huang@alumni.usc.edu
+  categories:
+    - devel
 - repo: alt_p11
   srcname: scala
   binnames:
@@ -202,6 +231,34 @@
     - huitseeker@aur
   licenses:
     - BSD
+- repo: aur
+  srcname: scala_2.12
+  binname: scala_2.12
+  visiblename: scala_2.12
+  version: 2.12.20
+  origversion: 2.12.20-1
+  status: legacy
+  summary: A Java-interoperable language with object-oriented and functional features. This is the maintenance version of Scala 2.12.
+  maintainers:
+    - musikolo@aur
+  licenses:
+    - Apache
+- repo: parrot
+  subrepo: parrot/main
+  srcname: scala
+  binnames:
+    - scala
+    - scala-library
+    - scala-doc
+  visiblename: scala
+  version: 2.11.12
+  origversion: 2.11.12-6
+  status: outdated
+  maintainers:
+    - pkg-java-maintainers@lists.alioth.debian.org
+    - min.huang@alumni.usc.edu
+  categories:
+    - devel
 - repo: aur
   srcname: scala_2.12
   binname: scala-docs_2.12
@@ -330,21 +387,6 @@
     - scala-library
   visiblename: scala
   version: 2.12.21
-  origversion: 2.12.21+ds3-1
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - juan.mendezr@proton.me
-  categories:
-    - devel
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: scala
-  binnames:
-    - scala
-    - scala-library
-  visiblename: scala
-  version: 2.12.21
   origversion: 2.12.21+ds3-2
   status: outdated
   maintainers:
@@ -366,53 +408,6 @@
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
     - min.huang@alumni.usc.edu
-- repo: deepin_25
-  subrepo: community
-  srcname: scala
-  binnames:
-    - scala
-    - scala-library
-    - scala-doc
-  visiblename: scala
-  version: 2.11.12
-  origversion: 2.11.12-6
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - min.huang@alumni.usc.edu
-  categories:
-    - devel
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: scala
-  binnames:
-    - scala
-    - scala-library
-    - scala-doc
-  visiblename: scala
-  version: 2.11.12
-  origversion: 2.11.12-4
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - min.huang@alumni.usc.edu
-  categories:
-    - devel
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: scala
-  binnames:
-    - scala
-    - scala-library
-  visiblename: scala
-  version: 2.12.21
-  origversion: 2.12.21+ds3-2
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - juan.mendezr@proton.me
-  categories:
-    - devel
 - repo: fedora_39
   subrepo: release
   srcname: scala
@@ -513,7 +508,7 @@
 - repo: homebrew
   srcname: scala@3.3
   visiblename: scala@3.3
-  version: 3.3.8
+  version: 3.3.9
   origversion: null
   status: legacy
   summary: JVM-based programming language
@@ -586,17 +581,6 @@
     - Apache-2
   categories:
     - lang
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.12.8
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
 - repo: macports
   srcname: lang/scala
   binname: scala3.4
@@ -613,9 +597,9 @@
     - lang
 - repo: macports
   srcname: lang/scala
-  binname: scala3.3
-  visiblename: scala3.3
-  version: 3.3.3
+  binname: scala3.2
+  visiblename: scala3.2
+  version: 3.2.2
   origversion: null
   status: legacy
   summary: The Scala Programming Language
@@ -627,9 +611,9 @@
     - lang
 - repo: macports
   srcname: lang/scala
-  binname: scala3.2
-  visiblename: scala3.2
-  version: 3.2.2
+  binname: scala3.3
+  visiblename: scala3.3
+  version: 3.3.3
   origversion: null
   status: legacy
   summary: The Scala Programming Language
@@ -1034,6 +1018,82 @@
     - supra4keanu@hotmail.com
   licenses:
     - BSD-3-Clause
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.12.4
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.12.5
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.12.6
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.12.7
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.12.8
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+- repo: openbsd
+  srcname: lang/scala
+  binname: scala
+  visiblename: lang/scala
+  version: 3.10.0
+  origversion: null
+  status: newest
+  summary: general purpose multi-paradigm programming language
+  maintainers:
+    - kirill@korins.ky
+  categories:
+    - lang
+- repo: scoop
+  subrepo: main
+  binname: scala
+  visiblename: scala
+  version: 3.10.0
+  origversion: null
+  status: newest
+  licenses:
+    - BSD-3-Clause
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: scala
@@ -1083,22 +1143,6 @@
   visiblename: scala
   version: 2.11.12
   origversion: 2.11.12-4
-  status: outdated
-  maintainers:
-    - pkg-java-maintainers@lists.alioth.debian.org
-    - min.huang@alumni.usc.edu
-  categories:
-    - devel
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: scala
-  binnames:
-    - scala
-    - scala-library
-    - scala-doc
-  visiblename: scala
-  version: 2.11.12
-  origversion: 2.11.12-6
   status: outdated
   maintainers:
     - pkg-java-maintainers@lists.alioth.debian.org
@@ -1237,53 +1281,6 @@
     - min.huang@alumni.usc.edu
   categories:
     - devel
-- repo: scoop
-  subrepo: main
-  binname: scala
-  visiblename: scala
-  version: 3.10.0
-  origversion: null
-  status: newest
-  licenses:
-    - BSD-3-Clause
-- repo: scoop
-  subrepo: versions
-  binname: scala212
-  visiblename: scala212
-  version: 2.12.21
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD-3-Clause
-- repo: scoop
-  subrepo: versions
-  binname: scala2
-  visiblename: scala2
-  version: 2.13.18
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD-3-Clause
-- repo: slackbuilds
-  srcname: development/scala3
-  visiblename: development/scala3
-  version: 3.8.4
-  origversion: null
-  status: outdated
-  maintainers:
-    - julian@dotcore.co.il
-  categories:
-    - development
-- repo: slackbuilds
-  srcname: development/scala
-  visiblename: development/scala
-  version: 2.13.18
-  origversion: null
-  status: legacy
-  maintainers:
-    - julian@dotcore.co.il
-  categories:
-    - development
 - repo: solus
   srcname: scala
   binname: scala
@@ -1484,65 +1481,18 @@
   summary: general-purpose programming language
   licenses:
     - Apache Software License 2.0
-- repo: npackd_stable
+- repo: eurolinux_8
+  subrepo: appstream
   srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.13.2
-  origversion: null
-  status: legacy
+  visiblename: scala
+  version: 2.10.6
+  origversion: 2.10.6-14.module+el8+2477+516cbbff
+  status: outdated
+  summary: A hybrid functional/object-oriented language for the JVM
   licenses:
-    - BSD license
+    - BSD and CC0 and Public Domain
   categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.13.3
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.13.4
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.13.1
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
-  vulnerable: true
-- repo: npackd_stable
-  srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: 2.13.5
-  origversion: null
-  status: legacy
-  licenses:
-    - BSD license
-  categories:
-    - Development
+    - Unspecified
   vulnerable: true
 - repo: npackd_stable
   srcname: scala
@@ -1594,29 +1544,6 @@
   status: outdated
   summary: Scala is a general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.
   vulnerable: true
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: scala
-  visiblename: scala
-  version: 2.10.6
-  origversion: 2.10.6-14.module+el8+2477+516cbbff
-  status: outdated
-  summary: A hybrid functional/object-oriented language for the JVM
-  licenses:
-    - BSD and CC0 and Public Domain
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: gobolinux
-  srcname: Scala
-  visiblename: Scala
-  version: 2.8.0_bin
-  origversion: null
-  status: outdated
-  summary: A general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.
-  licenses:
-    - BSD
-  vulnerable: true
 - repo: macports
   srcname: lang/scala
   binname: scala2.9
@@ -1631,6 +1558,16 @@
     - BSD
   categories:
     - lang
+  vulnerable: true
+- repo: gobolinux
+  srcname: Scala
+  visiblename: Scala
+  version: 2.8.0_bin
+  origversion: null
+  status: outdated
+  summary: A general purpose programming language designed to express common programming patterns in a concise, elegant, and type-safe way.
+  licenses:
+    - BSD
   vulnerable: true
 - repo: macports
   srcname: lang/scala
@@ -1662,17 +1599,19 @@
   categories:
     - lang
   vulnerable: true
-- repo: npackd_stable
+- repo: openeuler_22_03_lts_sp1
   srcname: scala
-  binname: scala
-  visiblename: Scala
-  version: "2.13"
-  origversion: null
-  status: legacy
+  binnames:
+    - scala
+  visiblename: scala
+  version: 2.10.6
+  origversion: 2.10.6-15.oe2203sp1
+  status: outdated
+  summary: Combination of object-oriented and functional programming
   licenses:
-    - BSD license
+    - BSD and CC0 and Public Domain
   categories:
-    - Development
+    - Unspecified
   vulnerable: true
 - repo: npackd_stable
   srcname: scala
@@ -1818,6 +1757,78 @@
   categories:
     - Development
   vulnerable: true
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: "2.13"
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.13.1
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.13.2
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.13.3
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.13.4
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+  vulnerable: true
+- repo: npackd_stable
+  srcname: scala
+  binname: scala
+  visiblename: Scala
+  version: 2.13.5
+  origversion: null
+  status: legacy
+  licenses:
+    - BSD license
+  categories:
+    - Development
+  vulnerable: true
 - repo: openeuler_20_03_lts_sp3
   srcname: scala
   visiblename: scala
@@ -1835,20 +1846,6 @@
   visiblename: scala
   version: 2.10.6
   origversion: 2.10.6-15.oe2003sp4
-  status: outdated
-  summary: Combination of object-oriented and functional programming
-  licenses:
-    - BSD and CC0 and Public Domain
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openeuler_22_03_lts_sp1
-  srcname: scala
-  binnames:
-    - scala
-  visiblename: scala
-  version: 2.10.6
-  origversion: 2.10.6-15.oe2203sp1
   status: outdated
   summary: Combination of object-oriented and functional programming
   licenses:
@@ -1939,18 +1936,6 @@
     - BSD and CC0 and Public Domain
   categories:
     - Unspecified
-  vulnerable: true
-- repo: openpkg_current
-  srcname: scala
-  visiblename: scala
-  version: 2.13.8
-  origversion: null
-  status: outdated
-  summary: Scala Programming Language
-  licenses:
-    - Apache
-  categories:
-    - Language
   vulnerable: true
 - repo: rocky_8
   subrepo: AppStream
