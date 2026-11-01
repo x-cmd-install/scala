@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,533 · **Forks**: 3,259 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,533 · **Forks**: 3,277 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 0 | 52 | 11 | 0 | 0 | 172 |
-| last60d | 2026-09-01 | 0 | 57 | 12 | 0 | 0 | 184 |
-| 90d | 2026-08-02 | 0 | 70 | 12 | 0 | 0 | 219 |
-| last180d | 2026-05-04 | 0 | 87 | 12 | 0 | 0 | 252 |
-| 360d | 2025-11-05 | 2 | 137 | 15 | 0 | 0 | 371 |
-| last720d | 2024-11-10 | 4 | 348 | 18 | 0 | 0 | 880 |
+| 30d | 2026-10-02 | 0 | 52 | 11 | 0 | 0 | 164 |
+| last60d | 2026-09-02 | 0 | 57 | 12 | 0 | 0 | 182 |
+| 90d | 2026-08-03 | 0 | 70 | 12 | 0 | 0 | 212 |
+| last180d | 2026-05-05 | 0 | 86 | 12 | 0 | 0 | 249 |
+| 360d | 2025-11-06 | 2 | 137 | 15 | 0 | 0 | 370 |
+| last720d | 2024-11-11 | 4 | 347 | 18 | 0 | 0 | 879 |
 
 ## Release assets
 
@@ -85,7 +85,7 @@ Reported by **153** distros on [repology.org](https://repology.org/project/scala
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `2.11.12` | 🪦 legacy |
-| Debian 14 | `2.11.12` | ⚠️ outdated |
+| Debian 14 | `2.12.21` | ⚠️ outdated |
 | Debian 13 | `2.11.12` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.11.12` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.11.12` | ⚠️ outdated |
@@ -102,4 +102,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:52:50Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:20:09Z._
