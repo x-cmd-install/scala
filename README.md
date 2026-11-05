@@ -14,11 +14,11 @@ x install scala
 
 ## Code insight
 
-Total: **407,668** lines of code across **10153** files in the top 5 languages.
+Total: **407,667** lines of code across **10153** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Scala | 393,412 | 106,674 | 73,689 | 9403 |
+| Scala | 393,411 | 106,674 | 73,689 | 9403 |
 | Java | 8,236 | 1,383 | 1,669 | 718 |
 | Css | 2,822 | 40 | 466 | 12 |
 | JavaScript | 1,217 | 93 | 175 | 7 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.12.21` (2025-12-08)
-- **Last commit**: 2026-11-03
+- **Last commit**: 2026-11-04
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 14,536 · **Forks**: 3,268 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,536 · **Forks**: 3,262 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8799 · **Open PRs**: 22 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40889
+- **Releases**: 80 · **Merged PRs**: 8800 · **Open PRs**: 23 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40891
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 60 | 12 | 0 | 0 | 190 |
-| last60d | 2026-09-05 | 0 | 65 | 13 | 0 | 0 | 209 |
-| 90d | 2026-08-06 | 0 | 79 | 13 | 0 | 0 | 239 |
-| last180d | 2026-05-08 | 0 | 94 | 13 | 0 | 0 | 276 |
-| 360d | 2025-11-09 | 2 | 146 | 16 | 0 | 0 | 397 |
-| last720d | 2024-11-14 | 4 | 355 | 19 | 0 | 0 | 882 |
+| 30d | 2026-10-06 | 0 | 61 | 13 | 0 | 0 | 192 |
+| last60d | 2026-09-06 | 0 | 66 | 14 | 0 | 0 | 211 |
+| 90d | 2026-08-07 | 0 | 77 | 14 | 0 | 0 | 241 |
+| last180d | 2026-05-09 | 0 | 95 | 14 | 0 | 0 | 278 |
+| 360d | 2025-11-10 | 2 | 147 | 17 | 0 | 0 | 399 |
+| last720d | 2024-11-15 | 4 | 355 | 20 | 0 | 0 | 882 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **153** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
+Reported by **157** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:39:20Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:59:32Z._
