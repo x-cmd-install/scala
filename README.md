@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,536 · **Forks**: 3,262 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,538 · **Forks**: 3,262 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8800 · **Open PRs**: 23 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40891
+- **Releases**: 80 · **Merged PRs**: 8800 · **Open PRs**: 24 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40891
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 0 | 61 | 13 | 0 | 0 | 192 |
-| last60d | 2026-09-06 | 0 | 66 | 14 | 0 | 0 | 211 |
-| 90d | 2026-08-07 | 0 | 77 | 14 | 0 | 0 | 241 |
-| last180d | 2026-05-09 | 0 | 95 | 14 | 0 | 0 | 278 |
-| 360d | 2025-11-10 | 2 | 147 | 17 | 0 | 0 | 399 |
-| last720d | 2024-11-15 | 4 | 355 | 20 | 0 | 0 | 882 |
+| 30d | 2026-10-07 | 0 | 61 | 14 | 0 | 0 | 192 |
+| last60d | 2026-09-07 | 0 | 66 | 14 | 0 | 0 | 211 |
+| 90d | 2026-08-08 | 0 | 77 | 15 | 0 | 0 | 241 |
+| last180d | 2026-05-10 | 0 | 95 | 15 | 0 | 0 | 278 |
+| 360d | 2025-11-11 | 2 | 146 | 18 | 0 | 0 | 399 |
+| last720d | 2024-11-16 | 4 | 355 | 21 | 0 | 0 | 880 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **157** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
+Reported by **155** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **81** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261105.yml` · 2026-11-05T07:59:32Z._
+_Snapshot: `data/card/261106.yml` · 2026-11-06T08:00:50Z._
