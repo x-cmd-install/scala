@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 0 | 69 | 21 | 0 | 0 | 233 |
-| last60d | 2026-09-15 | 0 | 81 | 22 | 0 | 0 | 287 |
-| 90d | 2026-08-16 | 0 | 91 | 23 | 0 | 0 | 310 |
-| last180d | 2026-05-18 | 0 | 111 | 23 | 0 | 0 | 352 |
-| 360d | 2025-11-19 | 1 | 160 | 26 | 0 | 0 | 471 |
-| last720d | 2024-11-24 | 4 | 366 | 29 | 0 | 0 | 943 |
+| 30d | 2026-10-16 | 0 | 65 | 21 | 0 | 0 | 111 |
+| last60d | 2026-09-16 | 0 | 81 | 22 | 0 | 0 | 287 |
+| 90d | 2026-08-17 | 0 | 90 | 23 | 0 | 0 | 299 |
+| last180d | 2026-05-19 | 0 | 111 | 23 | 0 | 0 | 348 |
+| 360d | 2025-11-20 | 1 | 160 | 26 | 0 | 0 | 465 |
+| last720d | 2024-11-25 | 4 | 361 | 29 | 0 | 0 | 942 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **160** distros on [repology.org](https://repology.org/project/scala). **5** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
+Reported by **162** distros on [repology.org](https://repology.org/project/scala). **5** are ✅ on the latest upstream release, **85** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -102,4 +102,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T08:21:23Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T08:00:29Z._
