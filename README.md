@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 14,540 · **Forks**: 3,257 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,541 · **Forks**: 3,257 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8818 · **Open PRs**: 32 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40967
+- **Releases**: 80 · **Merged PRs**: 8818 · **Open PRs**: 33 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40967
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-18 | 0 | 55 | 19 | 0 | 0 | 114 |
-| last60d | 2026-09-18 | 0 | 82 | 22 | 0 | 0 | 290 |
-| 90d | 2026-08-19 | 0 | 88 | 23 | 0 | 0 | 302 |
-| last180d | 2026-05-21 | 0 | 110 | 23 | 0 | 0 | 351 |
-| 360d | 2025-11-22 | 1 | 161 | 26 | 0 | 0 | 468 |
-| last720d | 2024-11-27 | 4 | 360 | 29 | 0 | 0 | 940 |
+| 30d | 2026-10-20 | 0 | 45 | 20 | 0 | 0 | 114 |
+| last60d | 2026-09-20 | 0 | 82 | 23 | 0 | 0 | 290 |
+| 90d | 2026-08-21 | 0 | 87 | 24 | 0 | 0 | 302 |
+| last180d | 2026-05-23 | 0 | 109 | 24 | 0 | 0 | 351 |
+| 360d | 2025-11-24 | 1 | 159 | 27 | 0 | 0 | 468 |
+| last720d | 2024-11-29 | 4 | 359 | 30 | 0 | 0 | 935 |
 
 ## Release assets
 
@@ -80,7 +80,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **162** distros on [repology.org](https://repology.org/project/scala). **6** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+Reported by **163** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -89,7 +89,7 @@ Reported by **162** distros on [repology.org](https://repology.org/project/scala
 | Debian 13 | `2.11.12` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.11.12` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.11.12` | ⚠️ outdated |
-| Homebrew | `3.10.1` | ✅ latest |
+| Homebrew | `2.12.21` | 🪦 legacy |
 | Nix unstable | `3.9.0` | ⚠️ outdated |
 | openSUSE Tumbleweed | `2.13.12` | ⚠️ outdated |
 
@@ -102,4 +102,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261117.yml` · 2026-11-17T08:55:37Z._
+_Snapshot: `data/card/261119.yml` · 2026-11-19T10:35:08Z._
