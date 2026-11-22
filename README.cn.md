@@ -48,7 +48,7 @@ x install scala
 
 ## 流行度
 
-- **Star**: 14,542 · **Fork**: 3,192 · **开放 issue**: 0 · **贡献者**: 602
+- **Star**: 14,543 · **Fork**: 3,192 · **开放 issue**: 0 · **贡献者**: 602
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install scala
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 41 | 23 | 0 | 0 | 114 |
-| last60d | 2026-09-22 | 0 | 82 | 26 | 0 | 0 | 290 |
-| 90d | 2026-08-23 | 0 | 86 | 27 | 0 | 0 | 302 |
-| last180d | 2026-05-25 | 0 | 109 | 27 | 0 | 0 | 351 |
-| 360d | 2025-11-26 | 1 | 158 | 30 | 0 | 0 | 468 |
-| last720d | 2024-12-01 | 4 | 358 | 33 | 0 | 0 | 935 |
+| 30d | 2026-10-23 | 0 | 41 | 23 | 0 | 0 | 55 |
+| last60d | 2026-09-23 | 0 | 81 | 26 | 0 | 0 | 286 |
+| 90d | 2026-08-24 | 0 | 86 | 27 | 0 | 0 | 297 |
+| last180d | 2026-05-26 | 0 | 109 | 27 | 0 | 0 | 349 |
+| 360d | 2025-11-27 | 1 | 158 | 30 | 0 | 0 | 466 |
+| last720d | 2024-12-02 | 4 | 358 | 33 | 0 | 0 | 935 |
 
 ## Release 资产
 
@@ -80,7 +80,7 @@ x install scala
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/scala) 上共有 **162** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/scala) 上共有 **164** 个发行版报告此项目。**7** 个 ✅ 已是最新上游版本，**82** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -90,7 +90,7 @@ x install scala
 | Ubuntu 26.04 LTS | `2.11.12` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `2.11.12` | ⚠️ outdated |
 | Homebrew | `3.10.1` | ✅ latest |
-| Nix unstable | `3.9.0` | ⚠️ outdated |
+| Nix unstable | `2.12.18` | 🪦 legacy |
 | openSUSE Tumbleweed | `2.13.12` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -102,4 +102,4 @@ scala 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261121.yml` · 2026-11-21T08:54:24Z._
+_数据快照: `data/card/261122.yml` · 2026-11-22T08:16:54Z._
