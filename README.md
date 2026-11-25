@@ -14,11 +14,11 @@ x install scala
 
 ## Code insight
 
-Total: **409,223** lines of code across **10180** files in the top 5 languages.
+Total: **409,632** lines of code across **10191** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Scala | 394,957 | 106,913 | 73,871 | 9427 |
+| Scala | 395,366 | 107,012 | 73,940 | 9438 |
 | Java | 8,246 | 1,382 | 1,671 | 721 |
 | Css | 2,822 | 40 | 466 | 12 |
 | JavaScript | 1,217 | 93 | 175 | 7 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v2.12.21` (2025-12-08)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-25
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 14,545 · **Forks**: 3,190 · **Open issues**: 0 · **Contributors**: 602
+- **Stars**: 14,547 · **Forks**: 3,189 · **Open issues**: 0 · **Contributors**: 602
 
 ## Totals (cumulative)
 
-- **Releases**: 80 · **Merged PRs**: 8831 · **Open PRs**: 30 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 40987
+- **Releases**: 80 · **Merged PRs**: 8836 · **Open PRs**: 32 · **Closed issues**: 0 · **Open issues**: 0 · **Commits**: 41003
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 0 | 54 | 17 | 0 | 0 | 77 |
-| last60d | 2026-09-25 | 0 | 94 | 20 | 0 | 0 | 308 |
-| 90d | 2026-08-26 | 0 | 99 | 21 | 0 | 0 | 319 |
-| last180d | 2026-05-28 | 0 | 122 | 21 | 0 | 0 | 371 |
-| 360d | 2025-11-29 | 1 | 171 | 24 | 0 | 0 | 488 |
-| last720d | 2024-12-04 | 4 | 371 | 27 | 0 | 0 | 954 |
+| 30d | 2026-10-26 | 0 | 54 | 19 | 0 | 0 | 97 |
+| last60d | 2026-09-26 | 0 | 99 | 22 | 0 | 0 | 328 |
+| 90d | 2026-08-27 | 0 | 104 | 23 | 0 | 0 | 339 |
+| last180d | 2026-05-29 | 0 | 127 | 23 | 0 | 0 | 391 |
+| 360d | 2025-11-30 | 1 | 176 | 26 | 0 | 0 | 508 |
+| last720d | 2024-12-05 | 4 | 376 | 29 | 0 | 0 | 970 |
 
 ## Release assets
 
@@ -78,21 +78,6 @@ Lowest-scoring checks:
 | [scala-docs-2.13.18.txz](https://github.com/scala/scala/releases/download/v2.13.18/scala-docs-2.13.18.txz) | 56.3 MiB | `native/unknown` |
 | [scala-docs-2.13.18.zip](https://github.com/scala/scala/releases/download/v2.13.18/scala-docs-2.13.18.zip) | 112.4 MiB | `other` |
 
-## Distribution status
-
-Reported by **164** distros on [repology.org](https://repology.org/project/scala). **7** are ✅ on the latest upstream release, **82** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `2.11.12` | 🪦 legacy |
-| Debian 14 | `2.12.21` | 🪦 legacy |
-| Debian 13 | `2.11.12` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `2.11.12` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.11.12` | ⚠️ outdated |
-| Homebrew | `3.10.1` | ✅ latest |
-| Nix unstable | `2.12.18` | 🪦 legacy |
-| openSUSE Tumbleweed | `2.13.12` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `scala` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -102,4 +87,4 @@ Install metadata for scala lives in the [x-cmd/install](https://github.com/x-cmd
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:29:47Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:09:19Z._
